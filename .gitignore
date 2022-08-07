@@ -1,3 +1,7 @@
 *.js
+
+# ignore all content of documents directory
 documents/*
+
+# only file1.html file can be seen by other in documents directory
 !documents/file1.html
